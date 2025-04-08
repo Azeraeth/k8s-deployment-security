@@ -1,0 +1,34 @@
+# Kubernetes Specific
+.kubeconfig
+.minikube
+.kind
+
+# Operating System Specific
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.pyc  # If you include Python examples
+__pycache__/ # If you include Python examples
+node_modules/ # If you include Node.js examples
+
+# Logs and Temporary Files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Secrets and Sensitive Information (VERY IMPORTANT)
+*.key
+*.pem
+*.crt
+config.yaml # If it contains sensitive data
+secrets.yaml # If it contains sensitive data
+.env
+.env.*
+credentials.json
