@@ -11,6 +11,7 @@ This creates a namespace and 1 pod deployment running the `nginx:mainline` image
 
 ```shell
 kubectl apply -f 1-k8s-deploy.yaml
+namespace/k8s-security created
 deployment.apps/k8s-standard created
 ```
 
